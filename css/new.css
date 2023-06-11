@@ -1,0 +1,114 @@
+@import url(//db.onlinewebfonts.com/c/0e979bd4a3c1c6ac788ed57ac569667f?family=revicons);
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*
+html {
+	font-family: Microsoft JhengHei;
+}
+*/
+
+nav#menu.desktopTopFixed {
+	min-height: 70px !important;
+}
+
+
+.desktopTopFixed .menu-list-items {
+	/*	height: 70px !important;*/
+}
+
+.mega-menu.desktopTopFixed .menu-logo {
+	padding: 0;
+}
+
+.mega-menu.desktopTopFixed .menu-list-items .menu-logo > li > a img {
+	height: 70px;
+	margin: 0;
+}
+
+#onepagenav.onepage-hover-01 .mega-menu .menu-links > li > a:hover,
+#onepagenav.onepage-hover-01 .mega-menu .menu-links > li.active > a {
+	color: #FFF;
+}
+
+#service-content p {
+	font-size: 18px;
+}
+#service-content-1 p {
+	font-size: 18px;
+}
+
+#service-content .blog-entry {
+	padding: 30px;
+	background: #fff;
+}
+#service-content-1 .blog-entry {
+	padding: 30px;
+	background: #fff;
+}
+
+.contact-3-info h4,
+.contact-3-info p {
+	color: #FFF;
+}
+
+.header.text-dark .mega-menu .menu-links > li {
+	padding: 0 5px;
+}
+
+.gray-footer {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.menufontsize {
+	font-size: 26px;
+	font-weight: 800;
+}
+
+.mega-menu .menu-links > li > a {
+	font-size: 16px;
+}
+
+
+@media (max-width: 769px) {
+    
+   .desktop_showonly{
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    
+	.service-3-font {
+		top: 50%;
+		position: absolute;
+		margin-top: -50px;
+	}
+
+	.service-2-img {
+		height: 300px;
+	}
+
+	.service-3-img {
+		height: 90%;
+	}
+}
+
+@media (max-width: 991px) {
+    
+	nav#menu.desktopTopFixed {
+		min-height: 70px !important;
+	}
+
+	.menu-links {
+		max-height: inherit !important;
+	}
+
+	.mega-menu > section.menu-list-items {
+		height: 70px !important;
+	}
+
+}
